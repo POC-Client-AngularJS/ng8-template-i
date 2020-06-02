@@ -1,0 +1,10 @@
+<header class="border border-primary m-3">
+	<h4>Header - Parent Component</h4>
+	<p>
+		<small>I am Parent Component behaving as a parent for the @output and Event emitter.</small>
+	</p>
+	<p>
+		<b>Welcome:</b>&nbsp;<u>{{userName}}</u>
+	</p>
+	<app-login (login)="onLogin($event)"></app-login>
+</header>
